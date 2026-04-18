@@ -1,7 +1,6 @@
 import os
 from fastapi import FastAPI
 from fastapi.middleware.cors import CORSMiddleware
-import cloudinary
 from dotenv import load_dotenv
 from database.db import Base, engine
 import models.models  
